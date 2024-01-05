@@ -1,0 +1,9 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_STM32F401_X220
+
+config ZMK_KEYBOARD_NAME
+    default "stm32_x220"
+
+endif

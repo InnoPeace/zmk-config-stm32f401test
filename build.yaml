@@ -19,4 +19,4 @@
 ---
 include:
   - board: blackpill_f401ce
-    shield: tidbit
+    shield: stm32f401_x220
