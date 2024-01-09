@@ -12,33 +12,33 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&gpiob 14 GPIO_ACTIVE_HIGH>
-            , <&blackpill 19 GPIO_ACTIVE_HIGH>
-            , <&blackpill 25 GPIO_ACTIVE_HIGH>
-            , <&blackpill 26 GPIO_ACTIVE_HIGH>
-            , <&blackpill 20 GPIO_ACTIVE_HIGH>
-            , <&blackpill 29 GPIO_ACTIVE_HIGH>
-            , <&blackpill 18 GPIO_ACTIVE_HIGH>
-            , <&blackpill 17 GPIO_ACTIVE_HIGH>
+            = <&gpiob 14 GPIO_ACTIVE_HIGH>  /* PB14 */
+            , <&gpiob  1 GPIO_ACTIVE_HIGH>  /* PB1  */
+            , <&gpiob 12 GPIO_ACTIVE_HIGH>  /* PB12 */
+            , <&gpiob 13 GPIO_ACTIVE_HIGH>  /* PB13 */
+            , <&gpiob  2 GPIO_ACTIVE_HIGH>  /* PB2  */
+            , <&gpioa  8 GPIO_ACTIVE_HIGH>  /* PA8  */
+            , <&gpiob  0 GPIO_ACTIVE_HIGH>  /* PB0  */
+            , <&gpioa  7 GPIO_ACTIVE_HIGH>  /* PA7  */
             ;
 
         row-gpios
-            = <&blackpill 46 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 45 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 42 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 40 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 43 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 41 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&gpiob  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB9  */
+            , <&gpioc 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PC14 */
+            , <&gpioa  0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA0  */
+            , <&gpioa  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA2  */
+            , <&gpioa  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA6  */
+            , <&gpioa  5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA5  */
+            , <&gpioa  3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA3  */
+            , <&gpioa  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA1  */
+            , <&gpioa  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA4  */
+            , <&gpioc 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PC13 */
+            , <&gpioc 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PC15 */
+            , <&gpiob  8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB8  */
+            , <&gpiob  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB6  */
+            , <&gpiob  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB4  */
+            , <&gpiob  7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB7  */
+            , <&gpiob  5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB5 */
             ;
     };
 
