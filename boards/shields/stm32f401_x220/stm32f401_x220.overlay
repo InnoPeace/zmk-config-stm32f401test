@@ -12,7 +12,7 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&blackpill 27 GPIO_ACTIVE_HIGH>
+            = <&gpiob 14 GPIO_ACTIVE_HIGH>
             , <&blackpill 19 GPIO_ACTIVE_HIGH>
             , <&blackpill 25 GPIO_ACTIVE_HIGH>
             , <&blackpill 26 GPIO_ACTIVE_HIGH>
