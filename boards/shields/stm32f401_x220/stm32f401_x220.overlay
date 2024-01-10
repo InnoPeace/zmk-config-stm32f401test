@@ -23,8 +23,8 @@
             ;
 
         row-gpios
-            = <&gpioa 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB9  */
-            , <&gpioa 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PC14 */
+            = <&gpiob  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PB9  */
+            , <&gpioc 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PC14 */
             , <&gpioa  0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA0  */
             , <&gpioa  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA2  */
             , <&gpioa  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* PA6  */
